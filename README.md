@@ -1,9 +1,8 @@
 # taxiObjects
 This example shows you how to use objects, inherit from other objects and manage a vector of objects.
 
-If you were starting from scratch, you would start with Taxicompanyinterface.h which is an abstract class that holds Taxis and ```
+If you were starting from scratch, you would start with Taxicompanyinterface.h which is an abstract class that holds Taxis and 
 Taxiinterface.h which is an abstract class for all things that could be in a Taxicompany.
-```
 
 Taxicompany.h inherits from Taxicompanyinterface.h and declares the vector that will hold all of the taxis.  So Taxicompany isa Taxicompanyinterface and it hasa array of Taxiinterface
 ```
